@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>ESERCIZI PHP</h1>
+    <a href="modifica_stringa.php">MODIFICA STRINGA</a>
 </body>
 </html>
