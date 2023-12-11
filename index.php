@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>ESERCIZI PHP</h1>
+    <a href="preferenza_lingua.php">LINGUA DI PREFERENZA</a>
 </body>
 </html>
