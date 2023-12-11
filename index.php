@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-
+    <h1>ESERCIZI PHP</h1>
+    <a href="pass_sicura.php">GENERA PASSWORD SICURA</a>
 </body>
 </html>
