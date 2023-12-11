@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>ESERCIZI PHP</h1>
+    <a href="trovaNum.php">TROVA NUMERO</a>
 </body>
 </html>
