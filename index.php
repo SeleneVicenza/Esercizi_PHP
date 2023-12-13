@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>ESERCIZI PHP</h1>
+    <a href="anagramma.php">Verifica anagramma</a>
 </body>
 </html>
