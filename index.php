@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>ESERCIZI PHP</h1>
+    <a href="valida.php">Valida</a>
 </body>
 </html>
