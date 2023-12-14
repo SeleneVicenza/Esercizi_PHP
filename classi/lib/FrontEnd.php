@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . './Corso.php';
+require_once __DIR__ . './Corso.php';
 
 class FrontEnd extends Corso {
     private bool $framework;
