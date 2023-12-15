@@ -23,6 +23,6 @@ echo $corsoSpring->riepilogo();
 $provaT = new ProvaTrait();
 
 $provaT->provaTrait1();
-$provaT->provaTrait2();
+
 ?>
 

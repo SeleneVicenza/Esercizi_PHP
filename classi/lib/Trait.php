@@ -7,14 +7,16 @@ trait Trait1 {
 }
 
 trait Trait2 {
-    public function provaTrait2 () {
+    public function provaTrait1 () {
         echo "Metodo " . __METHOD__ . " eseguito. <br>";
     }
 }
 
 class ProvaTrait {
-    use Trait1, Trait2;
-
+    use Trait1;
+    use Trait2 {
+        Trait2::provaTrait1 insteadOf Trait1;
+    }
 }
 
 ?>
