@@ -16,6 +16,7 @@ class ProvaTrait {
     use Trait1;
     use Trait2 {
         Trait2::provaTrait1 insteadOf Trait1;
+        Trait1::provaTrait1 as trait;
     }
 }
 
