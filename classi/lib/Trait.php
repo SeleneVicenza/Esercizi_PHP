@@ -13,8 +13,8 @@ trait Trait2 {
 }
 
 class ProvaTrait {
-    use Trait1;
-    use Trait2;
+    use Trait1, Trait2;
+
 }
 
 ?>
