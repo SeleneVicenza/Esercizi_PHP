@@ -8,16 +8,19 @@ error_reporting(E_ALL);
 #require_once __DIR__ . '/lib/Corso.php';
 require  __DIR__ . '/lib/FrontEnd.php';
 require  __DIR__ . '/lib/BackEnd.php';
+require  __DIR__ . '/lib/Profilo.php';
+
 
 $corsoPHP = new Corso('PHP', 'Gianluca', 'Backend', 10.5);
 $corsoAngular = new FrontEnd('Angular', 'Gianluca', 'Frontend', 15.5, true, "configurazione Angular");
 $corsoSpring = new BackEnd('Spring', 'Gianluca', 27, true);
+$profilo = new Profilo();
 
 echo $corsoPHP->riepilogo();
 echo "<hr>";
 echo $corsoAngular->riepilogo();
 echo "<hr>";
 echo $corsoSpring->riepilogo();
-
+echo $profilo->curriculum('Ciao');
 ?>
 
