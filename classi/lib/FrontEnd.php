@@ -4,6 +4,7 @@ require_once __DIR__ . './Corso.php';
 class FrontEnd extends Corso {
     private bool $framework;
     private $config;
+    public static string $piattaforma = "Piattaforma FronEnd";
 
     public function __construct($titolo, $autore, $categoria, $prezzo, $framework, $config) {
         parent::__construct($titolo, $autore, $categoria, $prezzo);
@@ -16,6 +17,8 @@ class FrontEnd extends Corso {
         . (($this->framework === true) ? "E' un framework <br>" : "non è un framework <br>")
         . "Configurazioni: " . $this->config . "<br>";
     }
+
+
 
 }
 

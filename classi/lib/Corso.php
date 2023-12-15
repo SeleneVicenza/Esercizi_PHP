@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 class Corso
 {
-
+    private static string $piattaforma = "Piattaforma X";
 
     private string $titolo = '';
     private string $autore = '';
@@ -59,6 +59,9 @@ class Corso
         . "Prezzo: " . $this->prezzo . "<br>";
     }
 
+    public static function infoPiattaforma() {
+        return static::$piattaforma;
+    }
 
 }
 
