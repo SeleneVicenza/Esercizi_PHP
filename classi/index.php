@@ -10,7 +10,7 @@ require  __DIR__ . '/lib/FrontEnd.php';
 require  __DIR__ . '/lib/BackEnd.php';
 
 $corsoPHP = new Corso('PHP', 'Gianluca', 'Backend', 10.5);
-$corsoAngular = new FrontEnd('Angular', 'Gianluca', 'Frontend', 15.5, true);
+$corsoAngular = new FrontEnd('Angular', 'Gianluca', 'Frontend', 15.5, true, "configurazione Angular");
 $corsoSpring = new BackEnd('Spring', 'Gianluca', 27, true);
 
 echo $corsoPHP->riepilogo();
